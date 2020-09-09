@@ -1,3 +1,4 @@
+package h.texto;
 import java.io.File;
 import java.io.FileWriter;
 
@@ -19,6 +20,5 @@ public class Gravacao {
 		} catch (Exception e) {
 			System.out.printf("Erro ao abrir o arquivo &s para gravação \n",endereco);
 		}
-		
 	}
 }
